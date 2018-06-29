@@ -74,7 +74,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
                 //(RequestOptions.placeholderOf(R.drawable.flicks_movie_placeholder).error(R.drawable.flicks_movie_placeholder).fitCenter())
                 .into(holder.ivPosterImage);
     }
-    // returns size
+    // returns size of list
     @Override
     public int getItemCount() {
         return movies.size();
